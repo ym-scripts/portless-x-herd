@@ -1,0 +1,38 @@
+{
+  "name": "portless-x-herd",
+  "version": "0.1.0",
+  "description": "Clean https://<app>.web.test URLs for local dev servers, side by side with Laravel Herd",
+  "bin": {
+    "portless-x-herd": "bin/portless-x-herd.js"
+  },
+  "files": [
+    "bin/",
+    "portless-herd.sh",
+    "portless-herd.ps1",
+    "docs/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "portless",
+    "laravel-herd",
+    "herd",
+    "https",
+    "local-development",
+    "dev-server",
+    "nginx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ym-scripts/portless-x-herd.git"
+  },
+  "homepage": "https://github.com/ym-scripts/portless-x-herd#readme",
+  "bugs": "https://github.com/ym-scripts/portless-x-herd/issues",
+  "author": {
+    "name": "Aghogho Meyoron",
+    "email": "youngmayor.dev@gmail.com",
+    "url": "https://youngmayor.mlabs.ng"
+  },
+  "license": "MIT"
+}
